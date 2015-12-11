@@ -3,9 +3,7 @@
 #
 # Shell-based menuing for wget
 #
-WGET=`which wget`
-SED=`which sed`
-CMDLINE="${WGET} "
+CMDLINE=`which wget`
 PARMLIST=`cat <<EOF
 --convert-links
 --level=1
